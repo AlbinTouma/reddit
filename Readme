@@ -1,0 +1,1 @@
+The bash script uses curl and jq to fetch subreddits listed on https://www.reddit.com/subreddits. Use the CSV file to filter by topic and number of subscribers.
