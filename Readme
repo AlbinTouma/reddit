@@ -1,1 +1,21 @@
-The bash script uses curl and jq to fetch subreddits listed on https://www.reddit.com/subreddits. Use the CSV file to filter by topic and number of subscribers.
+Reddit is a rich source of information for marketers and OSINTers alike as posts and comments provide useful information about potential customer pain points and events.
+
+You can use the main.sh to collect a list of subreddits listed on https://www.reddit.com/subreddits. This list is saved as a json and it's available in the repo as a the CSV file. Use the file to filter by, for example topic and number of subscribers.
+
+
+
+id	name	dispaly_name	title	subscribers	advertiser_category
+2qh1i	t5_2qh1i	AskReddit	Ask Reddit...	57,091,825	Lifestyles
+2r5rp	t5_2r5rp	facepalm	now double verified	8,079,635	Lifestyles
+2qh0u	t5_2qh0u	pics	Reddit Pics	33,098,616	Lifestyles
+2ubgg	t5_2ubgg	mildlyinfuriating	jukmifgguggh	11,515,460	Lifestyles
+2qmox	t5_2qmox	Piracy	Piracy: ꜱᴀɪʟ ᴛʜᴇ ʜɪɢʜ ꜱᴇᴀꜱ	2,493,007	Lifestyles
+2qh33	t5_2qh33	funny	funny	66,796,963	Entertainment
+2qh3s	t5_2qh3s	movies	Movie News and Discussion	37,030,282	Entertainment
+2qh03	t5_2qh03	gaming	r/gaming	46,954,700	Games
+2qh13	t5_2qh13	worldnews	World News	46,861,135	Lifestyles
+2rfxx	t5_2rfxx	leagueoflegends	League of Legends	8,296,130	Games
+2sgp1	t5_2sgp1	pcmasterrace	PC Master Race - PCMR: A place where all enthusiasts of PC, PC gaming and PC technology are welcome!	15,820,406	Games
+2qh3l	t5_2qh3l	news	News	30,966,594	Lifestyles
+2cneq	t5_2cneq	politics	Politics	8,933,274	Lifestyles
+2qqjc	t5_2qqjc	todayilearned	Today I Learned (TIL)	41,105,016	Lifestyles
