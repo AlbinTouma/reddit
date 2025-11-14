@@ -1,4 +1,8 @@
 output.json
+*csv
+*jsonl
 *.json
 mktemp
 /mktemp*
+/.env*
+.env

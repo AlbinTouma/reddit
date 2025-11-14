@@ -23,9 +23,10 @@ while True:
         print(f"Reached last page ({page})")
         break
 
-    with open('subreddit.jsonl','w') as f:
-        json.dump(data, f)
-        f.write(',\n')
+    for child in data['children']:
+        with open('subreddit.jsonl','a') as f:
+            r = json.dumps(child['data'])
+            f.write(r + "\n")
 
     page += 1
     time.sleep(2)
